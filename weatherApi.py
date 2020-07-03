@@ -37,6 +37,6 @@ try:
 except KeyError:
     print("incorrect city name")
 
-except:
-    print("internet is not working")
+except Exception as e:
+    print("error",e)
 
